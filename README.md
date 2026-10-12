@@ -1,11 +1,12 @@
-# RagaAI Catalyst&nbsp; [![GitHub release (latest by date)](https://img.shields.io/github/v/release/raga-ai-hub/ragaai-catalyst)](https://www.swifttechco.com) [![GitHub stars](https://img.shields.io/github/stars/raga-ai-hub/ragaai-catalyst?style=social)](https://www.swifttechco.com)  [![Issues](https://img.shields.io/github/issues/raga-ai-hub/ragaai-catalyst)](https://www.swifttechco.com) 
+# RagaAI-Catalyst
+
+## What This Is
+
+Every project needs a shelf of ready answers. product and engineering is one of those shelves, and RagaAI-Catalyst is the entry on it - the notes, patterns and fixes we reuse when this kind of work comes up.
 
 ## Images
 
-[![RagaAI-Catalyst](https://opengraph.githubassets.com/1/raga-ai-hub/RagaAI-Catalyst)](https://www.swifttechco.com)
-
-
-RagaAI Catalyst is a comprehensive platform designed to enhance the management and optimization of LLM projects. It offers a wide range of features, including project management, dataset management, evaluation management, trace management, prompt management, synthetic data generation, and guardrail management. These functionalities enable you to efficiently evaluate, and safeguard your LLM applications.
+[![RagaAI-Catalyst](images/preview.png)](https://github.com/Swift-Tech-Co)
 
 ## Table of Contents
 
@@ -550,14 +551,22 @@ AI Automation | FinTech Platforms | Custom Software and Mobile Apps | SaaS Platf
 
 **Join our community on Telegram:** [t.me/+Qt_eFvkb2rliMzNh](https://t.me/+Qt_eFvkb2rliMzNh)
 
-[Home](https://www.swifttechco.com) | [Services](https://www.swifttechco.com/services) | [Careers](https://www.swifttechco.com/careers) | [Referral Program](https://www.swifttechco.com/referral) | [Influencers](https://www.swifttechco.com/influencers) | [About](https://www.swifttechco.com/about) | [Contact](https://www.swifttechco.com/contact)
+Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: [swifttechco.com](https://www.swifttechco.com)
+- Website: swifttechco.com
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [raga-ai-hub/RagaAI-Catalyst](https://github.com/raga-ai-hub/RagaAI-Catalyst) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
