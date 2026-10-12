@@ -6,7 +6,7 @@ Every project needs a shelf of ready answers. product and engineering is one of 
 
 ## Images
 
-[![RagaAI-Catalyst](images/preview.png)](https://github.com/Swift-Tech-Co)
+[![RagaAI-Catalyst](images/preview.png)](https://github.com/Swift-Tech-Co/RagaAI-Catalyst)
 
 ## Table of Contents
 
@@ -51,10 +51,9 @@ you'll need to generate authentication credentials:
 2. Select "Authenticate" 
 3. Click "Generate New Key" to create your access and secret keys
 
-[![How to generate authentication keys](docs/img/autheticate.gif)](https://www.swifttechco.com)
+[![How to generate authentication keys](docs/img/autheticate.gif)](https://github.com/Swift-Tech-Co/RagaAI-Catalyst)
 
 **Note**: Authetication to RagaAICatalyst is necessary to perform any operations below.
-
 
 ## Usage
 
@@ -76,7 +75,7 @@ catalyst.project_use_cases()
 projects = catalyst.list_projects()
 print(projects)
 ```
-[![Projects](docs/img/create_project.gif)](https://www.swifttechco.com)
+[![Projects](docs/img/create_project.gif)](https://github.com/Swift-Tech-Co/RagaAI-Catalyst)
 
 ### Dataset Management
 Manage datasets efficiently for your projects:
@@ -102,10 +101,9 @@ dataset_manager.create_from_csv(
 dataset_manager.get_schema_mapping()
 
 ```
-[![Dataset](docs/img/dataset.gif)](https://www.swifttechco.com)
+[![Dataset](docs/img/dataset.gif)](https://github.com/Swift-Tech-Co/RagaAI-Catalyst)
 
 For more detailed information on Dataset Management, including CSV schema handling and advanced usage, please refer to the [Dataset Management documentation](docs/dataset_management.md).
-
 
 ### Evaluation
 
@@ -161,8 +159,7 @@ print("Experiment Results:", results)
 evaluation.append_metrics(display_name="Faithfulness_v1")
 ```
 
-[![Evaluation](docs/img/evaluation.gif)](https://www.swifttechco.com)
-
+[![Evaluation](docs/img/evaluation.gif)](https://github.com/Swift-Tech-Co/RagaAI-Catalyst)
 
 ### Trace Management
 
@@ -204,7 +201,7 @@ tracer.stop()
 tracer.get_upload_status()
 ```
 
-[![Trace](docs/img/trace_comp.png)](https://www.swifttechco.com)
+[![Trace](docs/img/trace_comp.png)](https://github.com/Swift-Tech-Co/RagaAI-Catalyst)
 For more detailed information on Trace Management, please refer to the [Trace Management documentation](docs/trace_management.md).
 
 ### Agentic Tracing
@@ -241,9 +238,8 @@ from ragaai_catalyst import init_tracing
 init_tracing(catalyst=catalyst, tracer=tracer)
 ```
 
-[![Tracing](docs/img/last_main.png)](https://www.swifttechco.com)
+[![Tracing](docs/img/last_main.png)](https://github.com/Swift-Tech-Co/RagaAI-Catalyst)
 For more detailed information on Trace Management, please refer to the [Agentic Tracing Management documentation](docs/agentic_tracing.md).
-
 
 ### Prompt Management
 
@@ -306,7 +302,6 @@ print("litellm_response:", litellm_response)
 ```
 For more detailed information on Prompt Management, please refer to the [Prompt Management documentation](docs/prompt_management.md).
 
-
 ### Synthetic Data Generation
 
 ```py
@@ -345,7 +340,6 @@ sdg.generate_examples_from_csv(
     model_config = {'provider': 'openai', 'model': 'gpt-4o-mini'}
 )
 ```
-
 
 ### Guardrail Management
 
@@ -412,13 +406,11 @@ guardrails = [
 
 gdm.add_guardrails(deployment_id, guardrails, guardrails_config)
 
-
 # Import GuardExecutor
 from ragaai_catalyst import GuardExecutor
 
 # Initialise GuardExecutor with required params and Evaluate
 executor = GuardExecutor(deployment_id,gdm,field_map={'context':'document'})
-
 
 message={'role':'user',
          'content':'What is the capital of France'
@@ -431,7 +423,7 @@ llm_caller = 'litellm'
 executor([message],prompt_params,model_params,llm_caller)
 
 ```
-[![Guardrails](docs/img/guardrails.png)](https://www.swifttechco.com)
+[![Guardrails](docs/img/guardrails.png)](https://github.com/Swift-Tech-Co/RagaAI-Catalyst)
 
 ### Red-teaming
 
@@ -445,7 +437,7 @@ The Red-teaming module provides comprehensive scans to detect model vulnerabilit
 - Flexible evaluation scenarios
 - Detailed reporting and analysis
   
-[![RedTeam](ragaai_catalyst/redteaming/utils/rt.png)](https://www.swifttechco.com)
+[![RedTeam](ragaai_catalyst/redteaming/utils/rt.png)](https://github.com/Swift-Tech-Co/RagaAI-Catalyst)
 
 #### Initialization
 
@@ -555,13 +547,21 @@ Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: swifttechco.com
+- Website: https://github.com/Swift-Tech-Co/RagaAI-Catalyst
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [raga-ai-hub/RagaAI-Catalyst](https://github.com/raga-ai-hub/RagaAI-Catalyst) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
 ## Sources
 
